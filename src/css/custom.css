@@ -1,0 +1,101 @@
+
+.hero .hero-bg {
+    bottom: 0;
+}
+.device-mockup {
+    width: 400px;
+}
+
+.mx-auto {
+    margin: 0 auto;
+}
+
+.mb-feature {
+    margin-bottom: 100px;
+}
+
+.number-feature{
+    color: black;
+    font-size: 300px;
+    z-index: 9;
+}
+
+.number-1{
+    margin-top: 80px;
+    margin-left: 200px;
+}
+.number-2{
+    margin-top: 80px;
+    margin-left: 120px;
+}
+.number-3{
+    margin-top: 80px;
+    margin-left: 130px;
+}
+.number-4{
+    margin-top: 50px;
+    margin-left: 125px;
+}
+.site-footer::before{
+    background-size: 0px !important;
+}
+
+#myModal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 10%;
+    top: 10%;
+    width: 80%; 
+    height: 80%; 
+    padding: 20px;
+    overflow: auto;
+    background-color: rgb(255,255,255); /* Cambia a blanco */
+    border: 2px solid #888;
+    border-radius: 10px; /* Agrega un borde redondeado */
+}
+
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #000; /* Cambia a negro */
+    padding: 10px 0;
+    height: 150px;
+}
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #000; /* Cambia a negro */
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+.modal-content, #caption {  
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+.close:hover, .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+.button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+}

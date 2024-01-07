@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="icon" type="image/png" href="dist/images/logo.png">
+    <link rel="icon" type="image/png" href="src/images/logo.png">
     <title>Crow Army</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Heebo:400,700|Oxygen:700">
-    <link rel="stylesheet" href="dist/css/particles.css">
+    <link rel="stylesheet" href="src/css/particles.css">
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/fontawesome.min.css" integrity="sha512-SgaqKKxJDQ/tAUAAXzvxZz33rmn7leYDYfBP+YoMRSENhf3zJyx3SBASt/OfeQwBHA1nxMis7mM3EV/oYT6Fdw==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
+
 <body class="min-h-screend">
 
     <!-- Main -->
@@ -18,14 +20,17 @@
         <div id="particles-div" class="particles"></div>
         <div class="w-full min-h-screen absolute">
             <div class="w-full grid min-h-screen justify-center content-start text-center text-white">
-                <img id="logo" class="2xl:w-full w-3/5 2xl:-my-8 my-4 mx-auto z-50" src="dist/images/logo.png" alt="logo" />
+                <img id="logo" class="2xl:w-full w-3/5 2xl:-my-8 my-4 mx-auto z-50" src="src/images/logo.png"
+                    alt="logo" />
                 <h1 class="text-4xl">Crow Army</h1>
                 <p class="pt-4 pb-12">¡Buscamos personas como tú!<br />¡Únete y forma parte del escuadrón cuervo!</p>
                 <div class="flex justify-center gap-10">
-                    <button id="btn-open-menu" class="w-[150px] bg-yellow-500 hover:bg-yellow-400 text-white font-bold py-2 px-4 border-b-4 border-yellow-700 hover:border-yellow-500 rounded">
+                    <button id="btn-open-menu"
+                        class="w-[150px] bg-yellow-500 hover:bg-yellow-400 text-white font-bold py-2 px-4 border-b-4 border-yellow-700 hover:border-yellow-500 rounded">
                         SERVIDORES
                     </button>
-                    <a class="w-[150px] bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded" href="https://discord.gg/xsGPJdTB7s" target="_blank">
+                    <a class="w-[150px] bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded"
+                        href="https://discord.gg/xsGPJdTB7s" target="_blank">
                         UNIRSE
                     </a>
                 </div>
@@ -34,90 +39,104 @@
     </main>
     <!-- Main -->
 
-    <aside id="menu" class="bg-white min-h-screen max-h-screen w-screen transform -translate-x-full transition-transform duration-1000 overflow-y-scroll">
+    <aside id="menu"
+        class="bg-white min-h-screen max-h-screen w-screen transform -translate-x-full transition-transform duration-1000 overflow-y-scroll">
         <div class="container mx-auto py-4 lg:py-0">
             <button id="btn-close-menu" class="fill-black right-4 lg:right-10 p-5 text-2xl absolute">
-                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"/></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" height="1em"
+                    viewBox="0 0 384 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                    <path
+                        d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z" />
+                </svg>
             </button>
-            <img class="max-w-[100px] lg:max-w-[300px]" src="dist/images/conan.png" alt="conan exiles" />
-            <p>En nuestro servidor de rol, <span class="font-bold">el corazón de nuestra economía se basa en el comercio</span> y el conocimiento especializado. Los ciudadanos tienen acceso a diversas <span class="font-bold">profesiones</span> que brindan oportunidades únicas para ir mejorando y <span class="font-bold">creciendo su asentamiento</span> para así, forjar tu camino en este mundo inmersivo.</p>
+            <img class="max-w-[100px] lg:max-w-[300px]" src="src/images/conan.png" alt="conan exiles" />
+            <p>En nuestro servidor de rol, <span class="font-bold">el corazón de nuestra economía se basa en el
+                    comercio</span> y el conocimiento especializado. Los ciudadanos tienen acceso a diversas <span
+                    class="font-bold">profesiones</span> que brindan oportunidades únicas para ir mejorando y <span
+                    class="font-bold">creciendo su asentamiento</span> para así, forjar tu camino en este mundo
+                inmersivo.</p>
             <h2 class="text-3xl font-bold my-4 text-center">¡Descubre tu pasión y marca la diferencia!</h2>
             <div class="flex gap-10 mb-4">
                 <div>
                     <p class="font-bold">Profesiones Primarias:</p>
                     <ul>
-                        <li>🔨 <span class="font-bold">Herrero:</span> Domina la forja de herramientas y armas poderosas.</li>
-                        <li>🛡️ <span class="font-bold">Armero:</span> Fabrica escudos y protecciones inquebrantables.</li>
-                        <li>🪵 <span class="font-bold">Carpintero:</span> Crea magníficos arcos y estructuras de madera.</li>
-                        <li>🌿 <span class="font-bold">Boticario:</span> Crea elixires curativos y remedios únicos para sanar a tus compañeros de aventura.</li>
-                        <li>🏴‍☠️ <span class="font-bold">Esclavista:</span> ¿Controlar y comerciar con esclavos? Toma decisiones morales desafiantes.</li>
-                        <li>🐎 <span class="font-bold">Domador de bestias:</span> Conviértete en el mejor amante de animales y domina la cría y el entrenamiento.</li>
-                        <li>👮 <span class="font-bold">Guardia de la ciudad:</span> Protege nuestro hogar y haz cumplir la ley con honor y valentía.</li>
-                    </ul> 
+                        <li>🔨 <span class="font-bold">Herrero:</span> Domina la forja de herramientas y armas
+                            poderosas.</li>
+                        <li>🛡️ <span class="font-bold">Armero:</span> Fabrica escudos y protecciones inquebrantables.
+                        </li>
+                        <li>🪵 <span class="font-bold">Carpintero:</span> Crea magníficos arcos y estructuras de madera.
+                        </li>
+                        <li>🌿 <span class="font-bold">Boticario:</span> Crea elixires curativos y remedios únicos para
+                            sanar a tus compañeros de aventura.</li>
+                        <li>🏴‍☠️ <span class="font-bold">Esclavista:</span> ¿Controlar y comerciar con esclavos? Toma
+                            decisiones morales desafiantes.</li>
+                        <li>🐎 <span class="font-bold">Domador de bestias:</span> Conviértete en el mejor amante de
+                            animales y domina la cría y el entrenamiento.</li>
+                        <li>👮 <span class="font-bold">Guardia de la ciudad:</span> Protege nuestro hogar y haz cumplir
+                            la ley con honor y valentía.</li>
+                    </ul>
                 </div>
-                <div>  
+                <div>
                     <p class="font-bold">Profesiones Secundarias:</p>
                     <ul>
-                        <li>🍳 <span class="font-bold">Cocinero:</span> Embriágate con los sabores de la gastronomía, ¡alimentando tanto el cuerpo como el alma!</li>
-                        <li>🏗️ <span class="font-bold">Constructor:</span> La creatividad y la arquitectura se combinan en tus manos para dar vida a impresionantes obras maestras.</li>
-                        <li>⚔️ <span class="font-bold">Aventurero:</span> Embárcate en misiones diarias, explorando el mundo y desafiando la adversidad.</li>
-                        <li>🌾 <span class="font-bold">Agricultor:</span> Siembra y cosecha la tierra, brindando sustento a la población y nutriendo al reino.</li>
+                        <li>🍳 <span class="font-bold">Cocinero:</span> Embriágate con los sabores de la gastronomía,
+                            ¡alimentando tanto el cuerpo como el alma!</li>
+                        <li>🏗️ <span class="font-bold">Constructor:</span> La creatividad y la arquitectura se combinan
+                            en tus manos para dar vida a impresionantes obras maestras.</li>
+                        <li>⚔️ <span class="font-bold">Aventurero:</span> Embárcate en misiones diarias, explorando el
+                            mundo y desafiando la adversidad.</li>
+                        <li>🌾 <span class="font-bold">Agricultor:</span> Siembra y cosecha la tierra, brindando
+                            sustento a la población y nutriendo al reino.</li>
                     </ul>
                 </div>
             </div>
 
-            <p>¡Recuerda que nuestras profesiones están cuidadosamente equilibradas para brindar una experiencia de juego única! Cada ciudadano debe recibir una recomendación de los altos cargos de la ciudad principal para acceder a ellas, asegurando así un ambiente de juego coherente y emocionante.</p>
-            
+            <p>¡Recuerda que nuestras profesiones están cuidadosamente equilibradas para brindar una experiencia de
+                juego única! Cada ciudadano debe recibir una recomendación de los altos cargos de la ciudad principal
+                para acceder a ellas, asegurando así un ambiente de juego coherente y emocionante.</p>
+
             <h2 class="text-3xl font-bold my-4 text-center">¡Embárcate en una emocionante aventura!</h2>
-            <p>A través de nuestro sistema de ciudades podrás crear desde humildes Escondites hasta majestuosos Reinos, cada nivel ofrece desafíos únicos y oportunidades para que los jugadores se conviertan en líderes y forjen su propio destino. Con requisitos específicos y beneficios exclusivos en cada nivel, el sistema de ciudades te permite explorar y expandir tu influencia en un mundo lleno de posibilidades. </p>
-        
+            <p>A través de nuestro sistema de ciudades podrás crear desde humildes Escondites hasta majestuosos Reinos,
+                cada nivel ofrece desafíos únicos y oportunidades para que los jugadores se conviertan en líderes y
+                forjen su propio destino. Con requisitos específicos y beneficios exclusivos en cada nivel, el sistema
+                de ciudades te permite explorar y expandir tu influencia en un mundo lleno de posibilidades. </p>
+
             <div class="container mx-auto px-5 py-2 lg:px-32 lg:pt-24 mb-20">
                 <div class="-m-1 flex flex-wrap md:-m-2">
                     <div class="flex w-1/2 flex-wrap">
                         <div class="w-1/2 p-1 md:p-2">
-                            <img
-                                alt="gallery"
-                                class="block h-full w-full rounded-lg object-cover object-center"
-                                src="dist/images/conan1.png" />
+                            <img alt="gallery" class="block h-full w-full rounded-lg object-cover object-center"
+                                src="src/images/conan1.png" />
                         </div>
                         <div class="w-1/2 p-1 md:p-2">
-                            <img
-                                alt="gallery"
-                                class="block h-full w-full rounded-lg object-cover object-center"
-                                src="dist/images/conan2.png" />
+                            <img alt="gallery" class="block h-full w-full rounded-lg object-cover object-center"
+                                src="src/images/conan2.png" />
                         </div>
                         <div class="w-full p-1 md:p-2">
-                            <img
-                                alt="gallery"
-                                class="block h-full w-full rounded-lg object-cover object-center"
-                                src="dist/images/conan3.png" />
+                            <img alt="gallery" class="block h-full w-full rounded-lg object-cover object-center"
+                                src="src/images/conan3.png" />
                         </div>
                     </div>
                     <div class="flex w-1/2 flex-wrap">
                         <div class="w-full p-1 md:p-2">
-                            <img
-                                alt="gallery"
-                                class="block h-full w-full rounded-lg object-cover object-center"
-                                src="dist/images/conan4.png" />
+                            <img alt="gallery" class="block h-full w-full rounded-lg object-cover object-center"
+                                src="src/images/conan4.png" />
                         </div>
                         <div class="w-1/2 p-1 md:p-2">
-                            <img
-                                alt="gallery"
-                                class="block h-full w-full rounded-lg object-cover object-center"
-                                src="dist/images/conan5.png" />
+                            <img alt="gallery" class="block h-full w-full rounded-lg object-cover object-center"
+                                src="src/images/conan5.png" />
                         </div>
                         <div class="w-1/2 p-1 md:p-2">
-                            <img
-                                alt="gallery"
-                                class="block h-full w-full rounded-lg object-cover object-center"
-                                src="dist/images/conan6.png" />
+                            <img alt="gallery" class="block h-full w-full rounded-lg object-cover object-center"
+                                src="src/images/conan6.png" />
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </aside> 
+    </aside>
 
-    <script src="dist/js/script.js"></script>
+    <script src="src/js/script.js"></script>
 </body>
+
 </html>
